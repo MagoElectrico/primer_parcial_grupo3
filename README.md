@@ -18,4 +18,6 @@ y ya podras correr el nodo de cinematica directa ejecutando el siguiente comando
 
 - ros2 run grupo_03_doosan_m0609_tasks cinematica_directa_executable
 
-despues te pedira que pongas angulos en grados para cada joint y te dara la posicion alcanzada en x, y, z, lo puedes verificar en rviz que el robot se movio y tambien puedes verificar las coordenadas en rviz, veras al costado una ventana que dice displays, en esa dice TF en TF dice link6 y en link6 podras ver la posicion
+despues te pedira que pongas angulos en grados para cada joint y te dara la posicion alcanzada en x, y, z, lo puedes verificar en rviz que el robot se movio y tambien puedes verificar las coordenadas en rviz, veras al costado una ventana que dice displays, en esa dice TF en TF dice link6 y en link6 podras ver la posicion, podras hacer esto indefinidamente hasta que hagas la interrupcion por teclado "crtl+c".
+
+## 4) Ejecutar nodo de cinematica inversa
