@@ -21,7 +21,7 @@ despues te pedira que pongas angulos en grados para cada joint y te dara la posi
 ## 4) Ejecutar nodo de cinematica inversa
 Posteriormente abre una nueva terminal y sin cerrar la que esta corriendo el rviz y vuelve a entrar a la carpeta "grupo_03_doosan_m0609_ws" y ejecuta este comando
 
-./compilar
+./compilar.sh
 
 y ya podras correr el nodo de cinematica inversa ejecutando el siguiente comando
 
