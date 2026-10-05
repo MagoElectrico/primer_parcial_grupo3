@@ -2,17 +2,25 @@
 Repositorio del primer parcial del grupo 3 de robotica simulacion de cinematica directa e inversa del robot doosan_m0609.
 
 ## 1) Clonar el repositorio 
-Al clonar el repositorio tendras la carpeta "grupo_03_doosan_m0609_ws" donde estaran todos los archivos necesarios.
+Al clonar el repositorio tendras la carpeta "primer_parcial_grupo3". Dentro de esa carpeta estara otra carpeta llamada "grupo_03_doosan_m0609_ws" donde estan todos los archivos necesarios.
 
-## 2) Abrir Rviz2
+## 2) instalar el entorno
 Entra a la carpeta "grupo_03_doosan_m0609_ws" y dale permisos a los archivos shell de la siguiente manera:
 
+- sudo chmod 777 instalar.sh
 - sudo chmod 777 abrir.sh
 - sudo chmod 777 compilar.sh
 - sudo chmod 777 ejecutar_cd.sh
 - sudo chmod 777 ejecutar_ci.sh
 
-Solo es necesario dar permisos una vez, posteriomente ejecuta el comando 
+una vez hecho eso ejecuta el siguiente comando:
+
+- ./instalar.sh
+
+y espera que se instale todo. Solo es necesario usar una vez este comando, si ya lo hiciste no lo hagas otra vez.
+
+## 3) Abrir Rviz2
+Posteriormente ejecuta el comando:
 
 - ./abrir.sh 
 
