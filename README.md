@@ -1,13 +1,13 @@
-## primer_parcial_grupo3
+# primer_parcial_grupo3
 Repositorio del primer parcial del grupo 3 de robotica simulacion de cinematica directa e inversa del robot doosan_m0609.
 
-# 1) Clonar el repositorio 
+## 1) Clonar el repositorio 
 Al clonar el repositorio tendras la carpeta "grupo_03_doosan_m0609_ws" donde estaran todos los archivos necesarios.
 
-# 2) Abrir Rviz2
+## 2) Abrir Rviz2
 Entra a la carpeta "grupo_03_doosan_m0609_ws" y ejecuta el comando ./abrir.sh donde se abrira el rviz con el robot y el joint_state_publisher. Para poder ejecutar los nodos de cinematica inversa y directa tienes que cerrar la ventana que se llama joint_state_publisher dado que este es un publicador y no se podra ejecutar el nodo.
 
-# 3) Ejecutar nodo de cinematica directa
+## 3) Ejecutar nodo de cinematica directa
 Posteriormente abre una nueva terminal y sin cerrar la que esta corriendo el rviz y vuelve a entrar a la carpeta "grupo_03_doosan_m0609_ws" y ejecuta estos comandos source /opt/ros/jazzy/setup.bash
 colcon build
 source install/setup.bash
