@@ -23,10 +23,12 @@ despues te pedira que pongas angulos en grados para cada joint y te dara la posi
 ## 4) Ejecutar nodo de cinematica inversa
 Posteriormente abre una nueva terminal y sin cerrar la que esta corriendo el rviz y vuelve a entrar a la carpeta "grupo_03_doosan_m0609_ws" y ejecuta estos comandos
 
-source /opt/ros/jazzy/setup.bash
-colcon build
-source install/setup.bash
+- source /opt/ros/jazzy/setup.bash
+- colcon build
+- source install/setup.bash
+
 y ya podras correr el nodo de cinematica inversa ejecutando el siguiente comando
 
-ros2 run grupo_03_doosan_m0609_tasks cinematica_inversa_executable
+- ros2 run grupo_03_doosan_m0609_tasks cinematica_inversa_executable
+
 despues te pedira que pongas las coordenadas x,y,z deseadas y te dara los ángulos que le corresponden a cada joint a lo puedes verificar en rviz que el robot se movio y tambien puedes verificar las coordenadas en rviz, veras al costado una ventana que dice displays, ahi veras un apartado que dice TF dentro de este otro que dice link6 y finalmente podrás ver la posicion, podras hacer esto indefinidamente hasta que hagas la interrupcion por teclado "crtl+c".
