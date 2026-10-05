@@ -115,7 +115,25 @@ class CinematicaInversaNode(Node):
             np.deg2rad(60)
         ], dtype=float)
 
-        max_iter = 200
+        limites_min = np.array([
+            -6.283,
+            -6.283,
+            -2.618,
+            -6.283,
+            -6.283,
+            -6.283
+        ])
+
+        limites_max = np.array([
+            6.283,
+            6.283,
+            2.618,
+            6.283,
+            6.283,
+            6.283
+        ])
+
+        max_iter = 100
         tolerancia = 1e-6
         alpha = 0.5
 
@@ -147,6 +165,13 @@ class CinematicaInversaNode(Node):
 
             self.q_actual = self.q_actual + delta_q
 
+            self.q_actual = np.clip(
+                self.q_actual,
+                limites_min,
+                limites_max
+            )
+
+        
         self.iteraciones = i + 1
 
         self.P_final = np.array(
