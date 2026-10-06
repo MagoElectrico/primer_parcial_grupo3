@@ -1,5 +1,12 @@
 # Primer_parcial_grupo3
-Repositorio del primer parcial del grupo 3 de robótica simulación de cinemática directa e inversa del robot doosan_m0609.
+Simulación de movimiento del robot doosan_m0609 mediante cinemática directa e inversa usando nodos en ros2. Hecho por:
+
+Natalia Veizaga, Lucas Alvarez, Nicolas Gironda
+
+Requerimientos minimos:
+
+- Ubuntu 24.0
+- ros2 jazzy
 
 ## 1) Clonar el repositorio 
 Al clonar el repositorio tendras la carpeta "primer_parcial_grupo3". Dentro de esa carpeta se encuentra otra carpeta llamada "grupo_03_doosan_m0609_ws" donde están todos los archivos necesarios.
